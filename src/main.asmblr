@@ -1,0 +1,63 @@
+IMPORT "system"
+
+!MATH.SIN 
+
+return = 0
+x = 0
+y = 0.005
+z = 2
+
+delay = 0.005
+limit = 0.2
+
+:l_1
+    SUB y, delay
+    y = return
+END
+
+:l_2
+    ADD y, delay
+    y = return
+END
+
+direction = 1
+
+:loop
+    !IF direction, "==", 1, "POW z, x","MATH.ROOT z,x"
+    POW z, x
+    PRINT return, "\n"
+
+    ! x += 1
+    ADD x, 1
+    x = return
+
+    SLEEP y
+
+    ! SICK!!!!
+    IF y, ">", limit,"direction = 0",""
+    IF y, "<=", delay,"direction = 1",""
+
+    IF direction, "==", 1,"GOTO l_2","GOTO l_1"
+
+    ! loop back
+    GOTO loop
+END
+
+!GOTO loop
+
+!MATH.ROOT 100,2
+!PRINT return,"\n"
+
+!POW return,2
+!PRINT return,"\n"
+
+list = [1,2,3]
+
+GET_IDX list, 0
+PRINT return,"\n"
+
+POP list, 0
+list = return
+
+GET_IDX list, 0
+PRINT return,"\n"
