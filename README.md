@@ -1,7 +1,10 @@
 # ASMBLR
 ASMBLR is a interpreted programming language (EXTRA SLOW). Idk... Made it for fun!
 
-
+## How to use!
+Go to the Releases, and run the installer of what version you want. That's it!
+You can go to CMD and type "ASMBLR open <file>.asmblr"
+Or you can use the shell version by typing "ASMBLR shell"
 
 ## How to compile (windows only):
 Compiling is not recomended as it only gives the language binary file, not including the standard libaries.This requires Python 3.x (that can be accessed in PATH)
