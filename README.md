@@ -1,6 +1,8 @@
 # ASMBLR
 ASMBLR is a interpreted programming language (EXTRA SLOW). Idk... Made it for fun!
 
+Compiled installer coming soon! (Around 13-16 July 2023)
+
 ## How to use!
 Go to the Releases, and run the installer of what version you want. That's it!
 You can go to CMD and type "ASMBLR open <file>.asmblr" or you can use the shell version by typing "ASMBLR shell"
