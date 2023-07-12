@@ -34,13 +34,7 @@ python -m PyInstaller --onefile main.py
 
 when its done, go to dist folder.
 
-you will see a file called "main.exe", rename it to "ASMBLR"
-
-make a folder in "C:/" called "ASMBLR"
-
-copy the exe to "C:/ASMBLR"
-
-in "C:/ASMBLR", make a folder named libs
+You will see a file called "main.exe", rename it to "ASMBLR". Make a folder in "C:/" called "ASMBLR", then in "C:/ASMBLR", make a folder named libs. Copy the exe to "C:/ASMBLR".
 
 ### How to get standard libraries for self-compiled build
 download "std_libs.zip" from the website, go to "C:/ASMBLR/libs" and extract all from zip
