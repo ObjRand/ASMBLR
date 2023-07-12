@@ -16,28 +16,7 @@ Compiling is not recomended as it only gives the language binary file, not inclu
 
 These steps shows an explanation of the command and the commands themselves.
 
-In ASMBLR root folder, run a command to build a python VENV called builder:
-"python -m venv builder"
-
-Enter the venv scripts folder and activate VENV:
-"cd builder && cd Scripts && activate"
-
-
-Install pyinstaller on the VENV:
-"pip install pyinstaller"
-
-
-In the venv activated cmd, enter src: "cd .. & cd .. & cd src"
-
-
-Now, compile the files:
-"python -m PyInstaller --onefile main.py"
-
-
-When its done, go to dist folder. 
-You will see a file called "main.exe", rename it to "ASMBLR". 
-Make a folder in "C:/" called "ASMBLR", then in "C:/ASMBLR", make a folder named libs. 
-Copy the exe to "C:/ASMBLR" and That's it!
+In ASMBLR root folder, run "compile-and-install.bat" with admin rights.
 
 ### How to get standard libraries for self-compiled build
 Download "std_libs.zip" from the website, go to "C:/ASMBLR/libs" and extract all from zip.
