@@ -1,6 +1,8 @@
 # ASMBLR
 ASMBLR is a interpreted programming language (EXTRA SLOW). Idk... Made it for fun!
 
+If you see any bugs, please report them on the "Issues" tab in github.
+
 Compiled installer coming soon! (Around 13-16 July 2023)
 
 ## How to use!
