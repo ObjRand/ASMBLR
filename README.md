@@ -17,6 +17,7 @@ Compiling is not recomended as it only gives the language binary file, not inclu
 These steps shows an explanation of the command and the commands themselves.
 
 In ASMBLR root folder, run "compile-and-install.bat" with admin rights.
+It is now compiled and installed in "C:/ASMBLR". It is also on PATH.
 
 ### How to get standard libraries for self-compiled build
 Download "std_libs.zip" from the website, go to "C:/ASMBLR/libs" and extract all from zip.
