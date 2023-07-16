@@ -3,10 +3,10 @@ ASMBLR is a interpreted programming language (EXTRA SLOW). Idk... Made it for fu
 
 Designed for windows, but if you know how to use python, you can maybe use it on linux or unix (mac os)  
 If you see any bugs, please report them on the "Issues" tab in github.  
-Compiled installer coming soon! (Around 13-16 July 2023)  
 
 ## How to use!
-Go to the Releases, and run the installer of what version you want. That's it!
+Go to the Releases, get the zip of what version you want and run the setup.bat file with admin permissions. Afterwards, put "C:\ASMBLR" in windows PATH.  
+That's it!  
 You can go to CMD and type "ASMBLR open <file>.asmblr" or you can use the shell version by typing "ASMBLR shell".
 
 ## How to compile (windows only):
