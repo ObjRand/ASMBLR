@@ -47,6 +47,8 @@ Well, here are the plans for *1.1*:
 - [ ] ***BETTER*** LIBRARY SUPPORT.
 - [ ] NEW *ADDITIONS* TO THE WEBSITE!
 - [ ] MORE *AUTOMATIC* INSTALLER!
+- [ ] EASIER COMPILING
+- [ ] *IMPROVED* INSTRUCTIONS AND WIKI
 
 ### Branching System (***For 1.x***)
 (NOT INCLUDING 1.0) 
