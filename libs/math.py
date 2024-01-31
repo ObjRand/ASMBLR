@@ -15,7 +15,11 @@ import math
 
 if name == "MATH.ROOT":
     if len(PRM) > 1:
-        variables["return"] = math.pow(PRM[0], (1/PRM[1]))
+        if "-" in str(PRM[0]):
+            PRM[0] = int(str(PRM[0]).replace("-",""))
+            variables["return"] = -math.pow(PRM[0], (1/PRM[1]))
+        else:
+            variables["return"] = math.pow(PRM[0], (1/PRM[1]))
     else:
         pass
 
