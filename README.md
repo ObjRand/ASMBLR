@@ -1,4 +1,6 @@
 # ASMBLR
+[![ASMBLR LOGO](/website/ASMBLR.png)](https://objrand.github.io/ASMBLR/)
+
 ASMBLR is a interpreted programming language (EXTRA SLOW). Idk... Made it for fun!  
 
 Designed for windows, but if you know how to use python, you can maybe use it on linux or unix (mac os)  
