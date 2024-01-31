@@ -26,6 +26,7 @@ build_in_math={
 }
 
 labels = {}
+from_label = False
 in_label = False
 in_goto = False
 goto_line = 0
@@ -301,9 +302,11 @@ def remove_strings(line):
 
 def parse_line(line,shell = False):
     # Optimise Later :)
-    global in_label,in_goto,current_line,goto_line
+    global in_label,in_goto,current_line,goto_line,from_label
 
+    # GLOBAL DEBUG SPOT!
     #print(current_line + 1, " ", goto_line)
+    print(in_label, ", ", in_goto, f", line number ({current_line + 1}): {line}")
 
     temp_line_array = line.strip().split(" ",1)
 
@@ -337,7 +340,8 @@ def parse_line(line,shell = False):
     # END
     if line_array[0] == "END" and not shell:
         if (in_label or in_goto):
-            in_label = False
+            if not from_label: 
+                in_label = False
 
             if in_goto:
                 current_line = goto_line
@@ -373,6 +377,9 @@ def parse_line(line,shell = False):
             elif line_array[0] == "GOTO" and not shell:
                 if len(line_array) > 1:
                     in_goto = True
+
+                    if in_label: 
+                        from_label = True
 
                     goto_line = current_line
                     current_line = labels[line_array[1].replace(" ","")]
