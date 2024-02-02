@@ -294,18 +294,27 @@ def command(name,PRM):
     if name == "TS":
         if PRM != []:
             variables["return"] = str(PRM[0])
+        else:
+            # HANDLE ERRORS
+            pass
 
         return
 
     if name == "TI":
         if PRM != []:
             if is_number(PRM[0]) and not "." in PRM[0]: variables["return"] = int(PRM[0])
+        else:
+            # HANDLE ERRORS
+            pass
 
         return
 
     if name == "TF":
         if PRM != []:
             if PRM[0].isdecimal() and "." in PRM[0]: variables["return"] = float(PRM[0])
+        else:
+            # HANDLE ERRORS
+            pass
 
         return
 
