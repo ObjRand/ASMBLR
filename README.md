@@ -51,6 +51,7 @@ Well, here are the plans for *1.1*:
 - [ ] MORE *AUTOMATIC* INSTALLER!
 - [ ] EASIER COMPILING
 - [ ] *IMPROVED* INSTRUCTIONS AND WIKI
+- [ ] COMMAND STACKING
 
 ### Branching System (***For 1.x***)
 (NOT INCLUDING 1.0) 
